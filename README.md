@@ -8,7 +8,6 @@
 
 https://movie-app-firebase-heroku.herokuapp.com/
 
-<h2 align="center">Happy Coding  ✍</h2>
 
 
 
