@@ -19,22 +19,22 @@ import {
 //* https://firebase.google.com/docs/auth/web/start
 //* https://console.firebase.google.com/ => project settings
 //! firebase console settings bölümünden firebaseconfig ayarlarını al
-const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
-};
 // const firebaseConfig = {
-//   apiKey: "AIzaSyCg1fCEO8i7MQnM3SiMJPiVcADp_NI9XTw",
-//   authDomain: "movie-app-1-6ec44.firebaseapp.com",
-//   projectId: "movie-app-1-6ec44",
-//   storageBucket: "movie-app-1-6ec44.appspot.com",
-//   messagingSenderId: "950886341278",
-//   appId: "1:950886341278:web:f4feb188157227da55398f",
+//   apiKey: process.env.REACT_APP_apiKey,
+//   authDomain: process.env.REACT_APP_authDomain,
+//   projectId: process.env.REACT_APP_projectId,
+//   storageBucket: process.env.REACT_APP_storageBucket,
+//   messagingSenderId: process.env.REACT_APP_messagingSenderId,
+//   appId: process.env.REACT_APP_appId,
 // };
+const firebaseConfig = {
+  apiKey: "AIzaSyCg1fCEO8i7MQnM3SiMJPiVcADp_NI9XTw",
+  authDomain: "movie-app-1-6ec44.firebaseapp.com",
+  projectId: "movie-app-1-6ec44",
+  storageBucket: "movie-app-1-6ec44.appspot.com",
+  messagingSenderId: "950886341278",
+  appId: "1:950886341278:web:f4feb188157227da55398f",
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
