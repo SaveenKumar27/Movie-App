@@ -36,13 +36,7 @@ const AppRouter = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route element={<PrivateRouter />}>
-          <Route path="/details/:id" element={<MovieDetail />} />
         </Route>
-        {/* <Route path="/details/:id" element={<MovieDetail />} /> */}
-        {/* <Route
-          path="/details/:id"
-          element={currentUser ? <MovieDetail /> : <Navigate to="/login" />}
-        /> */}
       </Routes>
     </Router>
   );
