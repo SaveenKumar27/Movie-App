@@ -9,7 +9,6 @@ import {
 import Main from "../pages/Main";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import MovieDetail from "../pages/MovieDetail";
 import Navbar from "../components/Navbar";
 import { AuthContext } from "../context/AuthContext";
 import { useContext } from "react";
